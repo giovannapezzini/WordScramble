@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(startGame))
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Word")
         
@@ -114,7 +115,7 @@ class ViewController: UITableViewController {
         return misspelledRange.location == NSNotFound
     }
     
-    func startGame() {
+    @objc func startGame() {
         title = allWords.randomElement()
         usedWords.removeAll(keepingCapacity: true)
         tableView.reloadData()

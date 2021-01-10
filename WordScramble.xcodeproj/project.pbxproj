@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135062A525AAF02800339668 /* AppBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 135062A425AAF02800339668 /* AppBanner.png */; };
 		1399893D25A95A5D00BB8D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399893C25A95A5D00BB8D4F /* AppDelegate.swift */; };
 		1399893F25A95A5D00BB8D4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399893E25A95A5D00BB8D4F /* SceneDelegate.swift */; };
 		1399894125A95A5D00BB8D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399894025A95A5D00BB8D4F /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135062A025AAE7C800339668 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		135062A425AAF02800339668 /* AppBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBanner.png; sourceTree = "<group>"; };
 		1399893925A95A5D00BB8D4F /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1399893C25A95A5D00BB8D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1399893E25A95A5D00BB8D4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135062A325AAEFD100339668 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				135062A425AAF02800339668 /* AppBanner.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		1399893025A95A5D00BB8D4F = {
 			isa = PBXGroup;
 			children = (
+				135062A325AAEFD100339668 /* Documentation */,
+				135062A025AAE7C800339668 /* README.md */,
 				1399893B25A95A5D00BB8D4F /* WordScramble */,
 				1399893A25A95A5D00BB8D4F /* Products */,
 			);
@@ -127,6 +140,7 @@
 				1399894925A95A6100BB8D4F /* LaunchScreen.storyboard in Resources */,
 				1399895325A95CF100BB8D4F /* start.txt in Resources */,
 				1399894625A95A6100BB8D4F /* Assets.xcassets in Resources */,
+				135062A525AAF02800339668 /* AppBanner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
